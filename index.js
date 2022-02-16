@@ -14,7 +14,7 @@ const createImageNode = () => {
 
     //Create the image inside
     const image = document.createElement("img");
-    image.width = "300";
+    image.width = "450";
 
     //Save the srtc info
     image.dataset.src = `https://randomfox.ca/images/${random()}.jpg`; 
